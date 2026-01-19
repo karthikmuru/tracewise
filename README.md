@@ -82,10 +82,10 @@ JSON snippet:
 - Optional LLM assistant for explanations (opt-in, privacy-friendly)
 
 ## Contributing
-See `CONTRIBUTING.md` for setup and guidelines. Good first issues are labeled `good first issue`. Please follow code style and add tests for new functionality.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup and guidelines. Good first issues are labeled `good first issue`. Please follow code style and add tests for new functionality.
 
 ## Security & Privacy
-Tracewise runs locally. Slow logs can contain sensitive data; handle them carefully and consider redacting before sharing.
+Tracewise runs locally and does not send data to external services. Slow logs can contain sensitive data; handle them carefully and consider redacting before sharing.
 
 ## License
 MIT
