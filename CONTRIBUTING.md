@@ -15,23 +15,29 @@ Thanks for your interest in contributing! This project aims to be lightweight an
    ```
 2) Install dependencies:
    ```bash
-   pip install -e .
+   pip install -e ".[dev]"
    ```
-
-If the project adds tooling later, update this section with exact commands.
 
 ## Code style
 - Keep changes small and focused.
 - Prefer clear, readable code over cleverness.
 - Add or update tests when behavior changes.
-- Use existing formatting/linting tools if present in the repo.
+- Format and lint with Ruff before opening a PR.
 
 ## Testing
 - Run the test suite before opening a PR.
 - If no tests exist yet, include a short note in your PR describing manual verification.
 
+## Developer commands
+- Install in editable mode: `pip install -e ".[dev]"`
+- Run tests: `pytest`
+- Lint: `ruff check .`
+- Format: `ruff format .`
+
 ## Pull requests
+- Keep PRs small and focused.
 - Provide a concise summary and rationale.
+- Include tests for new behavior or explain why not.
 - Link related issues (e.g., `Closes #123`) when applicable.
 - Include examples or output snippets for CLI or report changes.
 
